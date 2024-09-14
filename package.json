@@ -1,0 +1,33 @@
+{
+  "name": "ziko-keyframes",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c watch/rollup.config.js",
+    "watch": "rollup -c watch/rollup.config.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/ziko-keyframes.git"
+  },
+  "keywords": [
+    "ziko",
+    "animate.css",
+    "keyframes"
+  ],
+  "author": "zakaria elalaloui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/ziko-keyframes/issues"
+  },
+  "homepage": "https://github.com/zakarialaoui10/ziko-keyframes#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
