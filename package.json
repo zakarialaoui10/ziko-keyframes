@@ -17,8 +17,30 @@
   "keywords": [
     "ziko",
     "animate.css",
-    "keyframes"
+    "keyframes",
+    "svelte"
   ],
+  "exports":{
+    ".": {
+      "import": "./dist/ziko-keyframes.mjs",
+      "require": "./dist/ziko-keyframes.cjs"
+    },
+    "./svelte":{
+      "import":"./src/integrations/svelte/index.js"
+    },
+    "./react":{
+      "import":"./src/integrations/react/index.jsx"
+    },
+    "./preact":{
+      "import":"./src/integrations/preact/index.js"
+    },
+    "./solid":{
+      "import":"./src/integrations/solid/index.js"
+    },
+    "./vue":{
+      "import":"./src/integrations/vue/index.js"
+    }
+  },
   "author": "zakaria elalaloui",
   "license": "MIT",
   "bugs": {

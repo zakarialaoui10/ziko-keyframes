@@ -3,7 +3,7 @@ It provides a programmatic way to create and apply animations directly to DOM el
 
 **Usage :**
 
-- **With  [Ziko.js]() :**
+- **With  [Ziko.js](https://github.com/zakarialaoui10/ziko.js) :**
 ```js
  import {text} from "ziko"
  import {bounce} from "ziko-keyframes"

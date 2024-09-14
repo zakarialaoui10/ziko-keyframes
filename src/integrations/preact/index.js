@@ -1,4 +1,5 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
+// import React from 'preact/compat';
 const useKeyframes = (keyframesFunction) => {
   const node = useRef(null);
   useEffect(() => {

@@ -6,3 +6,6 @@ function useKeyframes(node, keyframes, config) {
       }
     };
 }
+export{
+    useKeyframes
+}
