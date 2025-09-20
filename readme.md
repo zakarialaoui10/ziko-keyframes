@@ -5,9 +5,9 @@ It provides a programmatic way to create and apply animations directly to DOM el
 
 - **With  [Ziko.js](https://github.com/zakarialaoui10/ziko.js) :**
 ```js
- import {text} from "ziko"
+ import {tags} from "ziko"
  import {bounce} from "ziko-keyframes"
- let txt= text("Hello from zikojs").style({
+ let txt= tags.span("Hello from zikojs").style({
     color : "darkblue"
  });
  let {keyframes, config} = bounce(1000, 2, "ease")
